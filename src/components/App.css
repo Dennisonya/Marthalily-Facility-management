@@ -17,6 +17,8 @@ body, html {
     position: sticky;
     margin-top: 0;
     padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 #logo-img{
@@ -48,6 +50,7 @@ body, html {
 
 .burger-wrapper {
     display: none;
+
 }
 
 /***Home Hero Section***/
@@ -250,6 +253,10 @@ body, html {
 #services-btn2:hover{
    transform: translateY(-4px);
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+}
+
+#services-btn > a{
+  color: black;
 }
 /*DNA Section*/
 
@@ -547,7 +554,7 @@ body, html {
 }
 
 /* Landscape phones */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   #logo-img {
     width: 100px;
     height: auto;
@@ -566,14 +573,19 @@ body, html {
     font-size: 0.95rem;
   }
 
+
+  #hero-txt{
+    max-width: 350px;
+  }
  #hero-txt h1 {
-  font-size: 1.5rem;
-  text-align: center;
+  font-size: 1.4rem;
+  text-align: left;
+  text-shadow: #000;
 }
 
 #hero-txt h3 {
   font-size: 1.1rem;
-  text-align: center;
+  text-align: left;
 }
 
   .navbar ul {
@@ -617,7 +629,7 @@ body, html {
   }
 }
 
-@media screen and (min-width: 800px) and (max-width: 900px) {
+@media screen and (min-width: 500px) and (max-width: 900px) {
   .home-hero {
     height: 100vh; 
     width: auto;
@@ -625,21 +637,72 @@ body, html {
   }
 
   #hero-txt {
-    padding-top: 50px;
-    max-width: 700px;
     margin: 0 auto;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
      bottom: 2rem;
+     min-width: 400px;
+     max-height: 300px;
   }
   #hero-txt h1{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
+
+
 
   .service-section {
     margin-bottom: 20px; /* tighter spacing on tablets */
   }
 }
 
+@media  screen and (min-width:300px) and (max-width:430px){
+  .links, .navbar ul {
+    display: none; /* hide desktop links */
+  }
+  .burger-container {
+    margin-left: 0; /* reset margin */
+    padding: 0 0.5rem;
+  }
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .home-hero {
+    height: 100svh; 
+    object-fit: contain;
+  }
+
+  #hero-txt {
+    
+    text-align: center;
+     bottom: 2rem;
+     min-width: 200px;
+     max-height: 300px;
+  }
+  #hero-txt h1{
+    font-size: 1.3rem;
+  }
+  #hero-txt h3{
+    font-size: 0.9rem;
+  }
+
+}
+
+
+@media screen and (max-width: 400px) {
+  body, html {
+    overflow-x: hidden;
+  }
+
+  .homepage, .app-container {
+    padding: 0;
+    margin: 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}

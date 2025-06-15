@@ -1,5 +1,5 @@
 import { useState } from 'react' 
-import {Routes ,Route, useNavigate } from 'react-router-dom';
+import {Routes ,Route, useNavigate, Link } from 'react-router-dom';
 import './App.css'
 import './Navbar';
 import Navbar from './Navbar';
@@ -38,7 +38,9 @@ export default function App() {
           We don't just maintain buildings, we elevate environments
         </h3>
         <button id="services-btn">
+          <Link to="/services">
           View our Services
+          </Link>
         </button>
         </div>
         </AnimateOnView>
