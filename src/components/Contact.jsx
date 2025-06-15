@@ -60,15 +60,15 @@ export default function Contact (){
                             <h2>Get In Touch</h2>
                             <p>Let's discuss how Marthalily can transform your facility with our expert solutions.</p>
                             <div className="contact-detail">
-                                <img src="public/images/phone-call.png" alt="Phone" className="contact-icon" /> 
+                                <img src="/images/phone-call.png" alt="Phone" className="contact-icon" /> 
                                 <span>+234 818 900 4822</span>
                             </div>
                             <div className="contact-detail">
-                                <img src="public/images/email (2).png" alt="Email" className="contact-icon" /> 
+                                <img src="/images/email (2).png" alt="Email" className="contact-icon" /> 
                                 <span>info@marthalilyfacilitymanagement.com</span>
                             </div>
                             <div className="contact-detail">
-                                <img src="public/images/location.png" alt="Location" className="contact-icon" /> 
+                                <img src="/images/location.png" alt="Location" className="contact-icon" /> 
                                 <span>200, Igbosere Road, Igbosere, Ajah, Lagos, Nigeria.</span>
                             </div>
                         

@@ -62,7 +62,7 @@ export default function App() {
       </div>
       <div className="about-image">
         <img 
-          src="public/images/20250612_0653_Marthalily Logo Design_remix_01jxh48kq0ewdtw1d3ttggbyed.png" 
+          src="/images/20250612_0653_Marthalily Logo Design_remix_01jxh48kq0ewdtw1d3ttggbyed.png" 
           alt="Our team at work" 
         />
       </div>
@@ -78,7 +78,7 @@ export default function App() {
         <AnimateOnView delay={0.2}>
         <div className='service-card'>
           <div>
-            <img src="public/images/Streetlight Repair.png" alt="" className='service-img'/>
+            <img src="/images/Streetlight Repair.png" alt="" className='service-img'/>
           </div>
           <h2>Streetlight & Infastructure Maintenance</h2>
           <ul>
@@ -91,7 +91,7 @@ export default function App() {
         <AnimateOnView delay={0.3}>
          <div className='service-card'>
           <div >
-              <img src="public/images/20250609_2236_Janitorial Staffing Service_remix_01jxb2ztkhf5rb2gb2583yn40y.png" alt="" className='service-img' />
+              <img src="/images/20250609_2236_Janitorial Staffing Service_remix_01jxb2ztkhf5rb2gb2583yn40y.png" alt="" className='service-img' />
           </div>
           <h2>Janitorial & Cleaning services</h2>
           <ul>
@@ -106,7 +106,7 @@ export default function App() {
           <AnimateOnView delay={0.4}>
         <div className='service-card'>
           <div>
-          <img src="public/images/Nigerian Security Officer.png" alt="" className='service-img' />
+          <img src="/images/Nigerian Security Officer.png" alt="" className='service-img' />
           </div>
           <h2>Security Services</h2>
           <ul>
@@ -124,11 +124,11 @@ export default function App() {
       </section> 
 
       <section className='dna-section'>
-          <img src="public/images/20250611_2020_Facility Workers Smiling_remix_01jxfzz532ext9prtwsd0ky9da.png" alt="" id='dna-img'/>
+          <img src="/images/20250611_2020_Facility Workers Smiling_remix_01jxfzz532ext9prtwsd0ky9da.png" alt="" id='dna-img'/>
         <div className="dna-values">
           <AnimateOnView>
           <div className="dna-vision">
-            <img src="public/images/Group 82.png" alt="" id='vision-img'/>
+            <img src="/images/Group 82.png" alt="" id='vision-img'/>
             <div id='dna-vision-txt'>
                 <h1>OUR VISION</h1>
                 <h3>To become Africa's leading and most innovative facility management brand, renowned for excellence, sustainability and efficiency</h3>
@@ -138,7 +138,7 @@ export default function App() {
 
           <AnimateOnView>
           <div className="dna-vision">
-            <img src="public/images/Group 83.png" alt="" id='vision-img'/>
+            <img src="/images/Group 83.png" alt="" id='vision-img'/>
             <div id='dna-vision-txt'>
                 <h1>OUR MISSION</h1>
                 <h3>To become Africa's leading and most innovative facility management brand, renowned for excellence, sustainability and efficiency</h3>
@@ -151,23 +151,23 @@ export default function App() {
        <h1 id='values-header'>Our Core Values</h1>
       <section className="core-values">  
           <div className="values">
-            <img src="public/images/honesty.png" alt="" className='value-img'/>
+            <img src="/images/honesty.png" alt="" className='value-img'/>
             <h2>Integrity</h2>
           </div>
            <div className="values">
-            <img src="public/images/innovation.png" alt="" className='value-img'/>
+            <img src="/images/innovation.png" alt="" className='value-img'/>
             <h2>Innovation</h2>
           </div>
            <div className="values">
-            <img src="public/images/earth.png" alt="" className='value-img'/>
+            <img src="/images/earth.png" alt="" className='value-img'/>
             <h2>Sustainability</h2>
           </div>
            <div className="values">
-            <img src="public/images/reputation.png" alt="" className='value-img'/>
+            <img src="/images/reputation.png" alt="" className='value-img'/>
             <h2>Customer Satisfaction</h2>
           </div>
            <div className="values">
-            <img src="public/images/worker.png" alt="" className='value-img'/>
+            <img src="/images/worker.png" alt="" className='value-img'/>
             <h2>Trained Professionals</h2>
           </div>
       </section>

@@ -7,7 +7,7 @@ export default function Navbar(){
     return(
         <div className="navbar">
             <div className="logo">
-                <img src="public/images/MARTHALLY_LogoWhite.png" alt="" id="logo-img" />
+                <img src="/images/MARTHALLY_LogoWhite.png" alt="" id="logo-img" />
             </div>
 
             <ul className="links">

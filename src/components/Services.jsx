@@ -15,37 +15,37 @@ export default function Services (){
         {
             "name": "Janitorial & Cleaning Services",
             "text": ["Commercial & residential cleaning","Post contruction cleanup","Deep cleaning & disinfection"],
-            "icon": "public/images/cleaning-services.png"
+            "icon": "/images/cleaning-services.png"
         },
         {
             "name": "Security Services",
             "text": ["Manned gaurding and survaillance","Access control and security systems"],
-            "icon": "public/images/security.png"   
+            "icon": "/images/security.png"   
         },
         {
             "name": "integrated Pest Management System - IPMS",
             "text": ["Environmentally safe pest system","Routine and emergency pest Managemenet System"],
-            "icon": "public/images/pest-control.png"   
+            "icon": "/images/pest-control.png"   
         },
         {
             "name": "Streetlight & Infasttucture Maintenance",
             "text": ["Streetlight installation and repairs","Smart lighting solutions"],
-            "icon": "public/images/streetlight maintenance.png"  
+            "icon": "/images/streetlight maintenance.png"  
         },
         {
             "name": "Landscaping & Groundskeeping",
             "text": ["Lawn care and maintenance","Green space design and beautification"],
-            "icon": "public/images/landscaping.png" 
+            "icon": "/images/landscaping.png" 
         },
         {
             "name": "Waste Management",
             "text": ["Solid and liquid waste collection","Waste sorting, recycling and disposal"],
-            "icon": "public/images/container.png"
+            "icon": "/images/container.png"
         },
         {
             "name": "Building, Elevators & Generator Maintenance",
             "text": ["Plumbing, Eletrical, HVAC","General repairs and asset upkeep"],
-            "icon": "public/images/Elevator & generator maintenance.png"
+            "icon": "/images/Elevator & generator maintenance.png"
         }
     ]
 
