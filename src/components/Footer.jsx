@@ -55,7 +55,7 @@ const handleReadMoreClick = () => {
         {/* Logo (optional placeholder) */}
         <div className="footer-logo">
           {/* Replace with actual image path */}
-          <img src="src/components/images/MARTHALLY_LogoWhite.png" alt="Marthalily Logo" />
+          <img src="public/images/MARTHALLY_LogoWhite.png" alt="Marthalily Logo" />
         </div>
       </div>
 

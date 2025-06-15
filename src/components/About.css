@@ -1,5 +1,5 @@
 .about-hero{
-  background-image: url('src/components/images/about us hero.png');
+  background-image: url('public/images/about us hero.png');
   background-position: center;
   background-size: cover;
   height: 100vh;

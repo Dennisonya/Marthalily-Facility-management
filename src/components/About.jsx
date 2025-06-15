@@ -43,7 +43,7 @@ const navigate = useNavigate();
       </FadeInWhenVisible>
     
     </div>
-    <img src="src/components/images/Our-story.png" alt="Our Story" id="story-img" />
+    <img src="public/images/Our-story.png" alt="Our Story" id="story-img" />
   </div>
 </section>
 
@@ -63,7 +63,7 @@ const navigate = useNavigate();
   <div className="advantage-grid">
     <FadeInWhenVisible delay={0.3}>
     <div className="advantage-card">
-      <img src="src/components/images/tech-driven.png" className="advantage-img tech" />
+      <img src="public/images/tech-driven.png" className="advantage-img tech" />
       <h3>Tech-Driven Services</h3>
       <p>We use smart tools and automation to enhance efficiency and service quality.</p>
     </div>
@@ -72,7 +72,7 @@ const navigate = useNavigate();
 
     <FadeInWhenVisible delay={0.5}>
     <div className="advantage-card">
-      <img src="src/components/images/Eco Friendly.png" className="advantage-img eco" />
+      <img src="public/images/Eco Friendly.png" className="advantage-img eco" />
       <h3>Eco-Conscious Operations</h3>
       <p>Committed to green cleaning agents and sustainable facility practices.</p>
     </div>
@@ -80,7 +80,7 @@ const navigate = useNavigate();
 
     <FadeInWhenVisible delay={0.7}>
     <div className="advantage-card">
-      <img src="src/components/images/Pro Team.png" className="advantage-img trained" />
+      <img src="public/images/Pro Team.png" className="advantage-img trained" />
       <h3>Trained Professionals</h3>
       <p>Our team members are highly trained to deliver consistent, expert-level care.</p>
     </div>
@@ -88,7 +88,7 @@ const navigate = useNavigate();
 
     <FadeInWhenVisible delay={0.9}>
     <div className="advantage-card">
-      <img src="src/components/images/customer care.png" className="advantage-img flexible" />
+      <img src="public/images/customer care.png" className="advantage-img flexible" />
       <h3>Flexible Service Models</h3>
       <p>Customized plans for every client’s unique needs and environment.</p>
     </div>
@@ -96,7 +96,7 @@ const navigate = useNavigate();
 
     <FadeInWhenVisible delay={0.11}>
     <div className="advantage-card">
-      <img src="src/components/images/customer centric.png" className="advantage-img customer" />
+      <img src="public/images/customer centric.png" className="advantage-img customer" />
       <h3>Customer-Centric Culture</h3>
       <p>Everything we do revolves around satisfaction, trust, and long-term value.</p>
     </div>
@@ -119,7 +119,7 @@ const navigate = useNavigate();
     {/* Card 1 */}
     <FadeInWhenVisible delay={0.3}>
     <div className="maverick-card">
-      <img src="src/components/images/Lateef headshot.png" className="maverick-img placeholder-img" />
+      <img src="public/images/Lateef headshot.png" className="maverick-img placeholder-img" />
       <h3 className="maverick-name">Lateef Gbajabiamila</h3>
       <p className="maverick-title">Chief Executive Officer</p>
       <p className="maverick-desc">
@@ -131,7 +131,7 @@ const navigate = useNavigate();
     {/* Card 2 */}
     <FadeInWhenVisible delay={0.5}> 
     <div className="maverick-card">
-      <img src="src/components/images/Tolulope headshot.png" className="maverick-img placeholder-img" />
+      <img src="public/images/Tolulope headshot.png" className="maverick-img placeholder-img" />
       <h3 className="maverick-name">Tolulope Durosinmi-Etti</h3>
       <p className="maverick-title">Chief Operating Officer</p>
       <p className="maverick-desc">
@@ -143,7 +143,7 @@ const navigate = useNavigate();
     {/* Card 3 */}
     <FadeInWhenVisible delay={0.7}>
     <div className="maverick-card">
-      <img src="src/components/images/Kikelomo Headshot.png" className="maverick-img placeholder-img" />
+      <img src="public/images/Kikelomo Headshot.png" className="maverick-img placeholder-img" />
       <h3 className="maverick-name">Kikelomo Tito</h3>
       <p className="maverick-title">Head of HR/Projects</p>
       <p className="maverick-desc">

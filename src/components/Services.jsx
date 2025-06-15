@@ -15,37 +15,37 @@ export default function Services (){
         {
             "name": "Janitorial & Cleaning Services",
             "text": ["Commercial & residential cleaning","Post contruction cleanup","Deep cleaning & disinfection"],
-            "icon": "src/components/images/cleaning-services.png"
+            "icon": "public/images/cleaning-services.png"
         },
         {
             "name": "Security Services",
             "text": ["Manned gaurding and survaillance","Access control and security systems"],
-            "icon": "src/components/images/security.png"   
+            "icon": "public/images/security.png"   
         },
         {
             "name": "integrated Pest Management System - IPMS",
             "text": ["Environmentally safe pest system","Routine and emergency pest Managemenet System"],
-            "icon": "src/components/images/pest-control.png"   
+            "icon": "public/images/pest-control.png"   
         },
         {
             "name": "Streetlight & Infasttucture Maintenance",
             "text": ["Streetlight installation and repairs","Smart lighting solutions"],
-            "icon": "src/components/images/streetlight maintenance.png"  
+            "icon": "public/images/streetlight maintenance.png"  
         },
         {
             "name": "Landscaping & Groundskeeping",
             "text": ["Lawn care and maintenance","Green space design and beautification"],
-            "icon": "src/components/images/landscaping.png" 
+            "icon": "public/images/landscaping.png" 
         },
         {
             "name": "Waste Management",
             "text": ["Solid and liquid waste collection","Waste sorting, recycling and disposal"],
-            "icon": "src/components/images/container.png"
+            "icon": "public/images/container.png"
         },
         {
             "name": "Building, Elevators & Generator Maintenance",
             "text": ["Plumbing, Eletrical, HVAC","General repairs and asset upkeep"],
-            "icon": "src/components/images/Elevator & generator maintenance.png"
+            "icon": "public/images/Elevator & generator maintenance.png"
         }
     ]
 

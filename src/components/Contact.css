@@ -1,6 +1,6 @@
 /* Contact Hero Section (similar to AboutUs) */
 .contact-hero {
-    background-image: url('src/components/images/About-us-hero.png'); /* Re-using the hero image */
+    background-image: url('public/images/About-us-hero.png'); /* Re-using the hero image */
     background-position: center;
     background-size: cover;
     align-items: center;
