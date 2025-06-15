@@ -6,44 +6,6 @@ import "./Contact.css";
 
 export default function Contact (){
 
-    const[formData, setFormData] = useState({
-        name: "",
-        email:"",
-        subject: "",
-        message: "",
-    });
-
-    const [status, setStatus] = useState(null);
-
-    function handleChange (e){
-        const {name, value} = e.target;
-        setFormData(prev => ({...prev, [name]:value }));
-    };
-
-  async function handleSubmit(e){
-    e.preventDefault();
-    setStatus(null);
-
-    try{
-        const response = await fetch("http://loaclhost:5000/send-email", {
-            method: "POST",
-            headers: {"Content-Type": "application/json"},
-            body: JSON.stringify(formData),
-        });
-        const result = await response .json();
-        if(result.succes){
-            setStatus("Message sent Successfully!");
-            setFormData({name: "", email:"", subject:"", message:""});
-        }else{
-            setStatus("Failed to send message. Please try again");
-        }
-    } catch (error){
-        console.error("Error:", error);
-        setStatus("An error occurred. PLease try again.");
-    }
-  };
-
-
     return(
         <div className="contact-page">
            <section className="contact-hero">
