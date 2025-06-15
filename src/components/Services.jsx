@@ -65,7 +65,7 @@ export default function Services (){
                     <FadeInWhenVisible delay={0.3}>
                      <h1>Comprehensive Facility Solutions for Every Environment.</h1>
                     <h3>From immaculate cleaning to cutting-edge maintenance, we manage the spaces that power everyday life.</h3>
-                `   </FadeInWhenVisible>
+                   </FadeInWhenVisible>
                 </div>
             </section>
 
