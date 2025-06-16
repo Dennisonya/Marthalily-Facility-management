@@ -206,7 +206,7 @@ body{
   }
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:450px){
   
   #service-hero-txt {
     margin-top:90px;
@@ -216,7 +216,7 @@ body{
      max-height: 300px;
   }
   #service-hero-txt h1{
-    font-size: 1.3rem;
+    font-size: 1.5gitrem;
   }
   #service-hero-txt h3{
     font-size: 0.9rem;
