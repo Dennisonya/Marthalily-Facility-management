@@ -52,27 +52,27 @@
 }
 
 /* Navigation links */
-.nav-links {
-    margin-top:20px;
-    position: fixed;
-    top: 100px;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.95);
-    padding: 20px;
-    border-radius: 8px;
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    text-align: center;
-    width: 100vw;
-    height: 70vh;
-    z-index:9999;
+   .nav-links {
+  margin-top: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9); /* dark semi-transparent background */
+  padding: 20px;
+  border-radius: 0;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  z-index: 9999; /* very high */
 }
 
 .nav-links.visible {
-    display: flex;
+    display: flex !important;
 }
 
 .nav-links li {

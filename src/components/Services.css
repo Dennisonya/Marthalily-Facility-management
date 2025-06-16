@@ -15,7 +15,15 @@ body{
     display: flex;
     flex-direction: column;
 }
-
+#service-hero-txt{
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  max-width: 800px;
+}
 .services-section{
     padding: 35px;
 }
@@ -191,13 +199,29 @@ body{
     height: 100vh;
   }
 
-  #hero-txt {
+  #service-hero-txt {
     position: absolute;
     padding: 30px;
     text-align: center;
   }
 }
 
+@media screen and (max-width:400px){
+  
+  #service-hero-txt {
+    margin-top:90px;
+    text-align: left;
+     bottom: 2rem;
+     min-width: 200px;
+     max-height: 300px;
+  }
+  #service-hero-txt h1{
+    font-size: 1.3rem;
+  }
+  #service-hero-txt h3{
+    font-size: 0.9rem;
+  }
 
+}
 
 

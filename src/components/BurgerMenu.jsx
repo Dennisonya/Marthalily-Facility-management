@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./BurgerMenu.css";
 
@@ -8,6 +8,9 @@ export default function BurgerMenu() {
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
+    useEffect(() => {
+  document.body.style.overflow = isOpen ? 'hidden' : 'auto';
+}, [isOpen]);
 
     return (
         <div className="burger-container">

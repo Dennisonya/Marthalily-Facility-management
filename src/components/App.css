@@ -19,6 +19,7 @@ body, html {
     padding: 20px;
     width: 100%;
     box-sizing: border-box;
+    z-index: 10000;
 }
 
 #logo-img{
@@ -59,7 +60,6 @@ body, html {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -124,7 +124,6 @@ body, html {
 }
 
 .about-content {
-  flex: 1;
   max-width: 500px;
 }
 
