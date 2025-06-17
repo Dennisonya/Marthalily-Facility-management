@@ -2,7 +2,7 @@ export const reasons = [
   {
     title: "Tech-Driven Solutions",
     text: "Smart sensors, scheduling apps, digital dashboards for efficiency and transparency.",
-    img: "/images/tech-driven.webp",
+    img: "/images/ANALYST_1.webp",
   },
   {
     title: "Expert Team",
@@ -12,16 +12,16 @@ export const reasons = [
   {
     title: "Cutting-Edge Equipment",
     text: "Investment in industrial vacuums, high-pressure washers, smart surveillance, etc., ensuring top-notch results.",
-    img: "/images/Cleaning tools.webp",
+    img: "/images/Group 86.png",
   },
   {
     title: "Eco-Conscious Approach",
     text: "Commitment to green cleaning agents and sustainable operations.",
-    img: "/images/Eco Friendly.webp",
+    img: "public/images/CLEANER_2.webp",
   },
   {
     title: "Tailored Plans",
     text: "Solutions customized to meet unique client needs (residential, commercial, government).",
-    img: "/images/tailored plans.webp",
+    img: "/images/AGENT_1.webp",
   },
 ];

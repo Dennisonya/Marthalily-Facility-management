@@ -64,7 +64,7 @@ export default function App() {
       </div>
       <div className="about-image">
         <img 
-          src="/images/20250612_0653_Marthalily Logo Design_remix_01jxh48kq0ewdtw1d3ttggbyed.webp" 
+          src="/images/STAFF_X3.webp" 
           alt="Our team at work" 
         />
       </div>
@@ -93,7 +93,7 @@ export default function App() {
         <AnimateOnView delay={0.3}>
          <div className='service-card'>
           <div >
-              <img src="/images/20250612_1256_Floor Cleaning Task_remix_01jxhrzgpqed7s6e0690r0zwnh (2).webp" alt="" className='service-img' />
+              <img src="/images/Cleaner_1.webp" alt="" className='service-img' />
           </div>
           <h2>Janitorial & Cleaning services</h2>
           <ul>
@@ -108,7 +108,7 @@ export default function App() {
           <AnimateOnView delay={0.4}>
         <div className='service-card'>
           <div>
-          <img src="/images/nigerian security officer.webp" alt="" className='service-img' />
+          <img src="/images/Group 87.webp" alt="" className='service-img' />
           </div>
           <h2>Security Services</h2>
           <ul>
@@ -126,7 +126,7 @@ export default function App() {
       </section> 
 
       <section className='dna-section'>
-          <img src="/images/20250611_2020_Facility Workers Smiling_remix_01jxfzz532ext9prtwsd0ky9da.webp" alt="" id='dna-img'/>
+          <img src="/images/STAFF_X1.webp" alt="" id='dna-img'/>
         <div className="dna-values">
           <AnimateOnView>
           <div className="dna-vision">

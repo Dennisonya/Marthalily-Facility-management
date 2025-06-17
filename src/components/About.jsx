@@ -63,7 +63,7 @@ const navigate = useNavigate();
   <div className="advantage-grid">
     <FadeInWhenVisible delay={0.3}>
     <div className="advantage-card">
-      <img src="/images/tech-driven.webp" className="advantage-img tech" />
+      <img src="/images/ANALYST_1.webp" className="advantage-img tech" />
       <h3>Tech-Driven Services</h3>
       <p>We use smart tools and automation to enhance efficiency and service quality.</p>
     </div>
@@ -72,7 +72,7 @@ const navigate = useNavigate();
 
     <FadeInWhenVisible delay={0.5}>
     <div className="advantage-card">
-      <img src="/images/Eco Friendly.webp" className="advantage-img eco" />
+      <img src="/images/CLEANER_2.webp" className="advantage-img eco" />
       <h3>Eco-Conscious Operations</h3>
       <p>Committed to green cleaning agents and sustainable facility practices.</p>
     </div>
