@@ -77,7 +77,7 @@ export default function App() {
           <h1 id="service-header">OUR SERVICES</h1>
           </AnimateOnView>
       <div className="services">
-        <AnimateOnView delay={0.2}>
+        <FadeInWhenVisible delay={0.2}>
         <div className='service-card'>
           <div>
             <img src="/images/Streetlight Repair.webp" alt="" className='service-img'/>
@@ -88,9 +88,9 @@ export default function App() {
             <li>Smart Lighting Solutions</li>
           </ul>
         </div>
-        </AnimateOnView>
+        </FadeInWhenVisible>
 
-        <AnimateOnView delay={0.3}>
+        <FadeInWhenVisible delay={0.4}>
          <div className='service-card'>
           <div >
               <img src="/images/Cleaner_1.webp" alt="" className='service-img' />
@@ -102,10 +102,10 @@ export default function App() {
             <li> Deep cleaning & disinfection</li>
           </ul>
         </div>
-          </AnimateOnView>
+          </FadeInWhenVisible>
 
 
-          <AnimateOnView delay={0.4}>
+          <FadeInWhenVisible delay={0.6}>
         <div className='service-card'>
           <div>
           <img src="/images/Group 87.webp" alt="" className='service-img' />
@@ -116,7 +116,7 @@ export default function App() {
             <li>Access control and security systems</li>
           </ul>
         </div>
-          </AnimateOnView>
+          </FadeInWhenVisible>
 
       </div>
         <button id="services-btn2" onClick={handleServicesClick}>
