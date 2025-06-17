@@ -17,7 +17,7 @@ export const reasons = [
   {
     title: "Eco-Conscious Approach",
     text: "Commitment to green cleaning agents and sustainable operations.",
-    img: "public/images/CLEANER_2.webp",
+    img: "/images/CLEANER_2.webp",
   },
   {
     title: "Tailored Plans",
