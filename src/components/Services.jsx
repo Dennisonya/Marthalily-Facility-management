@@ -28,7 +28,7 @@ export default function Services (){
             "icon": "/images/pest-control.png"   
         },
         {
-            "name": "Streetlight & Infasttucture Maintenance",
+            "name": "Streetlight & Infastructure Maintenance",
             "text": ["Streetlight installation and repairs","Smart lighting solutions"],
             "icon": "/images/streetlight maintenance.png"  
         },

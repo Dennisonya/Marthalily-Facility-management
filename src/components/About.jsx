@@ -132,7 +132,7 @@ const navigate = useNavigate();
     <FadeInWhenVisible delay={0.5}> 
     <div className="maverick-card">
       <img src="/images/Tolulope headshot.webp" className="maverick-img placeholder-img" />
-      <h3 className="maverick-name">Tolulope Durosinmi-Etti</h3>
+      <h3 className="maverick-name">Toluwalase Durosinmi-Etti</h3>
       <p className="maverick-title">Chief Operating Officer</p>
       <p className="maverick-desc">
         A dynamic operations leader with over six years of cross-industry experience in the UK and Nigeria. Drives process efficiency, team performance and client satisfaction through strategic, data-driven decision-making.

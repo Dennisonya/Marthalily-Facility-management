@@ -143,7 +143,7 @@ export default function App() {
             <img src="/images/Group 83.png" alt="" id='vision-img'/>
             <div id='dna-vision-txt'>
                 <h1>OUR MISSION</h1>
-                <h3>To become Africa's leading and most innovative facility management brand, renowned for excellence, sustainability and efficiency</h3>
+                <h3>To deliver comprehensive, tech-enabled, and customer-focused facility management services that enhance living, working, and public environments.</h3>
             </div>
           </div>
           </AnimateOnView>
